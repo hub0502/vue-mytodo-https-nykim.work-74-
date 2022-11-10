@@ -18,7 +18,7 @@ export default {
         const date = now.getDate();
         const weekList = new Array("Sun.", "Mon.", "Tue.", "Wed.", "Thu.", "Fri", "Sat.");
         const week = weekList[now.getDay()];
-        this.timesamp = `${month}/${date} ${week}`;
+        this.timestamp = `${month}/${date} ${week}`;
     }
 }
 </script>

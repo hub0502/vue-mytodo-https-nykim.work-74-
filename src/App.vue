@@ -15,6 +15,7 @@ import TodoTitle from './components/TodoTitle.vue'
 import TodoInput from './components/TodoInput.vue'
 import TodoList from "./components/TodoList.vue"
 import TodoFooter from "./components/TodoFooter.vue"
+import TodoController from "./components/TodoController.vue"
 
 export default {
   name: 'App',
@@ -22,6 +23,7 @@ export default {
     TodoHeader,
     TodoTitle,
     TodoInput,
+    TodoController,
     TodoList,
     TodoFooter
   }
